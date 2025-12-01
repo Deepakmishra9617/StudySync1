@@ -781,12 +781,7 @@ align-items: self-start;
 
 
 
-
-
-/* 📱 Mobile (<768px) */
 @media screen and (max-width: 768px) {
-
-  /* Navbar */
   .card1 {
     flex-direction: row;
     align-items: center;
@@ -818,8 +813,6 @@ align-items: self-start;
   .menu-button {
     display: block;
   }
-
-  /* Hero Section */
   .main-section {
     flex-direction: column;
     text-align: center;
@@ -839,8 +832,6 @@ align-items: self-start;
     width: 100%;
     height: auto;
   }
-
-  /* Company logos */
   .company {
     margin-left: 0;
     padding: 0 1rem;
@@ -850,8 +841,6 @@ align-items: self-start;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
-
-  /* Features */
   .feature-div {
     height: auto;
     padding: 2rem 1rem;
@@ -860,8 +849,6 @@ align-items: self-start;
   .box-card {
     grid-template-columns: repeat(1, 1fr);
   }
-
-  /* Testimonials */
   .test-box {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
@@ -872,8 +859,6 @@ align-items: self-start;
   .test-box3 {
     width: 100%;
   }
-
-  /* Newsletter */
   .sub-newsletter {
     flex-direction: column;
     text-align: center;
@@ -892,18 +877,14 @@ align-items: self-start;
     font-size: 0.9rem;
   }
 
-  /* Footer */
   .footer-left {
     flex-direction: column;
     gap: 2rem;
     text-align: center;
   }
 }
-
-/* 💻 Tablet (768px–1024px) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
-  /* Navbar */
   .card1 {
     padding: 0 2rem;
   }
@@ -915,8 +896,6 @@ align-items: self-start;
   .contact-button {
     padding: 0.5rem 1rem;
   }
-
-  /* Hero */
   .main-section {
     flex-direction: column;
     text-align: center;
@@ -932,23 +911,25 @@ align-items: self-start;
     height: auto;
     width: 80%;
   }
-
-  /* Company grid */
   .company-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* Features */
+
+
+    
   .box-card {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Testimonials */
+
+
+
+    
   .test-box {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Newsletter */
   .sub-newsletter {
     flex-direction: row;
   }
@@ -962,9 +943,9 @@ align-items: self-start;
     width: 60%;
   }
 
-  /* Footer */
   .footer-left {
     flex-wrap: wrap;
     gap: 2rem;
   }
 }
+
